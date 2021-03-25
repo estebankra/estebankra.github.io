@@ -1,5 +1,6 @@
 import React from 'react'
 
+import { FiMail, FiCodepen, FiGithub, FiLinkedin } from "react-icons/fi";
 import SocialMediaItem from '../components/SocialMediaItem';
 
 export default function AboutMeSection() {
@@ -12,16 +13,21 @@ export default function AboutMeSection() {
           <ul>
           <SocialMediaItem 
             href='mailto:estebankrauwezuk@gmail.com'
-            icon='fa fa-at' 
+            icon={<FiMail />} 
+          />
+          <SocialMediaItem 
+            href='https://www.linkedin.com/in/estebankra/'
+            icon={<FiLinkedin />}
+            targetBlank
           />
           <SocialMediaItem
             href='https://github.com/estebankra'
-            icon='fa fa-github'
+            icon={<FiGithub />}
             targetBlank
           />
           <SocialMediaItem 
             href='https://codepen.io/estebankra/'
-            icon='fa fa-codepen'
+            icon={<FiCodepen />}
             targetBlank
           />
           </ul>

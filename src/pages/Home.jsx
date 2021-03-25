@@ -20,43 +20,43 @@ function Home() {
           achievements={
             <React.Fragment>
               <AchievementItem
-                src="img/achievements/vue-course.jpg"
+                src="https://i.imgur.com/SVng6tT.jpg"
                 alt="vue-course"
               />
               <AchievementItem
                 href="https://www.freecodecamp.org/certification/estebankra/responsive-web-design"
-                src="img/achievements/responsive-web-design.png"
+                src="https://i.imgur.com/5gRbqjj.png"
                 alt="responsive-web-design"
                 targetBlank
               />
               <AchievementItem
-                src="img/achievements/rails-facilito.png"
+                src="https://i.imgur.com/PLYt9ej.png"
                 alt="rails-codigo-facilito"
               />
               <AchievementItem
-                src="img/achievements/prog-basica.png"
+                src="https://i.imgur.com/X8It2KZ.png"
                 alt="prog-basica-platzi"
               />
               <AchievementItem
                 href="https://teachlr.com/certificate/TC-MTM4MDcxfCp8MjY1OA=="
-                src="img/achievements/disenho-web-teachlr.png"
+                src="https://i.imgur.com/saDJW0G.png"
                 alt="design-web-teachlr"
                 targetBlank
               />
               <AchievementItem
-                src="img/achievements/marca-personal.png"
+                src="https://i.imgur.com/ynOPO8G.png"
                 alt="marca-personal-platzi"
               />
               <AchievementItem
-                src="img/achievements/jquery-sololearn.png"
+                src="https://i.imgur.com/khSH4Pg.png"
                 alt="jquery-sololearn"
               />
               <AchievementItem
-                src="img/achievements/sublime-text.png"
+                src="https://i.imgur.com/uRwcMqy.png"
                 alt="sublime-text"
               />
               <AchievementItem
-                src="img/achievements/html-sololearn.png"
+                src="https://i.imgur.com/r0l6yJ7.png"
                 alt="html-sololearn"
               />
             </React.Fragment>
@@ -71,58 +71,29 @@ function Home() {
               <AchievementItem
                 title="Tribute Page"
                 href="https://codepen.io/estebankra/full/qLJWqm"
-                src="img/web-designs/design-web-augusto.png"
+                src="https://i.imgur.com/OHro5OR.png"
                 alt="project-augusto-roa-bastos"
                 targetBlank
               />
               <AchievementItem
                 title="Technical Documentation"
                 href="https://codepen.io/estebankra/full/exjxxx"
-                src="img/web-designs/design-web-ruby.png"
+                src="https://i.imgur.com/Aj4gKQv.png"
                 alt="project-ruby-documentation"
                 targetBlank
               />
               <AchievementItem
                 title="Survey Form"
                 href="https://codepen.io/estebankra/full/bOQpvO"
-                src="img/web-designs/design-web-form.png"
+                src="https://i.imgur.com/PAHEWvd.png"
                 alt="project-survey-form"
                 targetBlank
               />
               <AchievementItem
                 title="Product Landing Page"
                 href="https://codepen.io/estebankra/full/jdWoOr"
-                src="img/web-designs/design-web-telescope.png"
+                src="https://i.imgur.com/bD60rZO.png"
                 alt="project-product-landing-page"
-                targetBlank
-              />
-            </React.Fragment>
-          }
-        />
-        
-        <AchievementSection 
-          subSectionTitle="Java"
-          achievements={
-            <React.Fragment>
-              <AchievementItem
-                title="CellShop | Spring Framework"
-                href="https://github.com/estebankra/cellshop"
-                src="img/spring/cellshop-spring.png"
-                alt="project-cellshop-sts"
-                targetBlank
-              />
-              <AchievementItem
-                title="Trivia Game | Android"
-                href="https://github.com/estebankra/android-trivia-game"
-                src="img/android/culture-app.jpg"
-                alt="project-trivia-game"
-                targetBlank
-              />
-              <AchievementItem
-                title="Phonebook"
-                href="https://github.com/estebankra/phonebook"
-                src="img/java/phonebook.jpg"
-                alt="project-cellshop-sts"
                 targetBlank
               />
             </React.Fragment>
@@ -136,15 +107,44 @@ function Home() {
               <AchievementItem
                 title="CellShop"
                 href="https://github.com/estebankra/cellshop-ror"
-                src="img/ror/cellshop-ror.png"
+                src="https://i.imgur.com/r82dRHx.png"
                 alt="project-cellshop-rails"
                 targetBlank
               />
               <AchievementItem
                 title="Starweb"
                 href="https://github.com/estebankra/star-soft"
-                src="img/ror/starweb.png"
+                src="https://i.imgur.com/lYFRlqD.png"
                 alt="project-cellshop-rails"
+                targetBlank
+              />
+            </React.Fragment>
+          }
+        />
+        
+        <AchievementSection 
+          subSectionTitle="Java"
+          achievements={
+            <React.Fragment>
+              <AchievementItem
+                title="CellShop | Spring Framework"
+                href="https://github.com/estebankra/cellshop"
+                src="https://i.imgur.com/bPHFEqn.png"
+                alt="project-cellshop-sts"
+                targetBlank
+              />
+              <AchievementItem
+                title="Trivia Game | Android"
+                href="https://github.com/estebankra/android-trivia-game"
+                src="https://i.imgur.com/693nI3i.jpg"
+                alt="project-trivia-game"
+                targetBlank
+              />
+              <AchievementItem
+                title="Phonebook"
+                href="https://github.com/estebankra/phonebook"
+                src="https://i.imgur.com/C8MdttU.jpg"
+                alt="project-phonebook"
                 targetBlank
               />
             </React.Fragment>
@@ -158,7 +158,7 @@ function Home() {
               <AchievementItem
                 title=">Arduino - IoT"
                 href="https://github.com/estebankra/board-code"
-                src="img/arduino/placa.jpg"
+                src="https://i.imgur.com/XQLokZm.jpg"
                 alt="project-arduino"
                 targetBlank
               />
