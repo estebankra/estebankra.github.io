@@ -13,7 +13,7 @@ function SocialMediaItem(props) {
           <span></span>
           <span></span>
           <span></span>
-          <span class={icon} aria-hidden="true"></span>
+          <span>{icon}</span>
         </a>
       </li>
     </React.Fragment>
