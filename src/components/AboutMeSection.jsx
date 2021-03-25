@@ -34,8 +34,7 @@ export default function AboutMeSection() {
         </div>
       </div>
 
-      <div class="wave"></div>
-      
+      <div class="wave"></div>    
     </section>
   )
 }
