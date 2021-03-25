@@ -255,10 +255,7 @@ p#bio {
 }
 
 #social {
-  display: flex;
   margin-top: 70px;
-  align-items: center;
-  justify-content: center;
 }
 
 #social ul {
@@ -294,6 +291,11 @@ p#bio {
   justify-content: center;
   color: #000;
   font-size: 30px;
+}
+
+.list-social-items {
+  display: flex;
+  justify-content: center;
 }
 
 ul li:hover span {
@@ -347,6 +349,15 @@ footer {
     font-size: 20px;
     padding: 15px;
   }
+
+  #social ul li {
+    width: 40px;
+    height: 40px;
+  }
+
+  #social ul li span {
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 550px) {
@@ -389,17 +400,13 @@ footer {
   }
 
   #social {
-    margin-top: 20px;
+    margin-top: 50%;
   }
 
   #social ul li {
-    width: 45px;
-    height: 45px;
+    width: 35px;
+    height: 30px;
     margin: 0 25px;
-  }
-
-  #social ul li span {
-    font-size: 25px;
   }
 }
 
